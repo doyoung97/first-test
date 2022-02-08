@@ -1,0 +1,273 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/x"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_x"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="IT 공과대학"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:iconifiedByDefault="false"
+                app:queryHint="검색어를 입력하세요."/>
+
+<!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/editSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="검색어를 입력하세요."/>
+            </LinearLayout>
+-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+                    <ImageView
+                        android:id="@+id/it"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_it2" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:text="IT 공과대학"
+                        android:textColor="#E53935"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_redarrow"
+                    android:layout_marginTop="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+<!--                    <ListView
+                        android:id="@+id/listView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:divider="#999999"
+                        android:dividerHeight="1dp">
+                    </ListView>
+-->
+
+
+                    <Button
+                        android:id="@+id/btn_information_processing_engineer"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="정보처리기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="프로그래밍 분야"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="30dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="OCJP"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="OCWCD"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="OCBCD"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OS 분야"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="30dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="LPIC"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="MCSE"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="MCSA"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="리눅스 마스터"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="네트워크 분야"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="30dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="CCNA"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="CCNP"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="CCIE"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="네트워크 관리사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="해킹, 정보보안 분야"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="30dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="CISA"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="CISSP"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="정보보안 기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

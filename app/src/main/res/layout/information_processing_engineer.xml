@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/x"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_x"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="정보처리기사"
+                android:textColor="#F8E079"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="시험 일정"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/ic_information_processing_engineer_time"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="시험 정보"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/ic_information_processing_engineer_information"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="시험 범위"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/ic_information_processing_engineer_range"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="합격자 TIP"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/edit_tip"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="@drawable/edittext_background"
+                    android:hint="한줄 입력."/>
+                <Button
+                    android:id="@+id/btn_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="등록"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/text_tip"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:text=""/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="추천 도서"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <HorizontalScrollView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/information_processing_engineer_book1"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ic_information_processing_engineer_book1"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/information_processing_engineer_book2"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ic_information_processing_engineer_book2"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/information_processing_engineer_book3"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ic_information_processing_engineer_book3"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/information_processing_engineer_book4"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ic_information_processing_engineer_book4"
+                        android:layout_marginLeft="10dp"/>
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

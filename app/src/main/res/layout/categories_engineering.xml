@@ -1,0 +1,280 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/x"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_x"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="공과 대학"
+                android:textSize="40dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"/>
+            <androidx.appcompat.widget.SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:iconifiedByDefault="false"
+                app:queryHint="검색어를 입력하세요."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+                    <ImageView
+                        android:id="@+id/engineering"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_engineering" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:text="공과대학"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_redarrow"
+                    android:layout_marginTop="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="위험물 산업기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <TextView
+                        android:id="@+id/machine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="기계자동차로봇부품 공학부"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="30dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="기계설계기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="자동차정비기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="메카트로닉스
+                        기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="화학환경 공학부"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="30dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="화공기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="환경기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="분석기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="건설 공학부"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="30dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="건축기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="건축설비기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="건설안전기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="시공,구조,설비 기술사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text=" 건축물 에너지 평가사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="바이오 응용 공학부"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="30dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="바이오화학제품 제조기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="품질경영기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="의료전자기능사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="전기전자통신 공학부"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="30dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="전기 기사"
+                       android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="전자캐드기능사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="전기공사기사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="생산 자동화
+                        기능사"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="40dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
